@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+html {
+    background-color:  rgb(255, 255, 247);
+}
+
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+
+
+/*ヘッダー-------------------------------------------------*/
+
+.header-left {
+    display: flex;
+}
+
+.header-left p {
+    margin: 30px 15px 30px 70px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(224, 148, 6);
+}
+
+.header-left img {
+    width: 80px;
+    height: 80px
+}
+
+/*タイトル---------------------------------------------------*/
+.title {
+    margin-top: 50px;
+    background-color: rgba(225, 73, 13, 0.73);
+    color: black;
+}
+
+.title h1 {
+    padding-left:20px;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+span {
+    font-size: 23px;
+}
+
+.nav {
+    font-size: 30px;
+    padding-left: 20px;
+    display: flex;
+}
+
+a {
+    margin-left: 35px;
+    color: rgb(97, 97, 240);
+}
+
+.nav p {
+    margin: 0;
+}
+
+
+/*テーブル---------------------------------------------------*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border: solid 2px rgb(72, 26, 12);
+    margin-top: 40px;
+}
+
+th {
+    padding: 7px 0px;
+    font-size: 20px;
+    background-color:rgba(223, 179, 210, 0.841)
+}
+
+td {
+    padding: 16px 6px;
+    border: solid 2px black;
+}
+
+
+/*-------------------------------------------------------*/
+.pic img {
+    width: 800px;
+    height: 450px;
+    
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 450px) {
+    
+    .container {
+        width: 90%;
+    }
+
+
+    /*ヘッダー-------------------------------------------------*/
+    .header-left p {
+        margin: 10px 10px 10px 10px;
+        font-size: 17px;
+    }
+
+    .header-left img {
+        width: 45px;
+        height: 45px
+    }
+
+    /*タイトル---------------------------------------------------*/
+    .title {
+        margin-top: 30px;
+    }
+
+    .title h1 {
+        padding-left:20px;
+        font-size:20px;
+        margin-bottom: 0;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav a {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    .nav p {
+        font-size: 20px;
+        margin: 7px 0 0 0;
+    }
+
+
+    /*テーブル---------------------------------------------------*/
+    table {
+        margin-top: 20px;
+    }
+
+    th {
+        font-size: 16px;
+        background-color:rgba(223, 179, 210, 0.841)
+    }
+    
+    td {
+        font-size: 14px;
+    }
+
+
+    /*-------------------------------------------------------*/
+    .pic img {
+        width: 400px;
+        height: 220px;
+        
+    }
+
+    
+
+}
