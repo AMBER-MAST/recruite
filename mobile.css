@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 450px) {
+
+
+    html {
+        background-size: 100px 70px;
+    }
     
     .container {
         width: 90%;
@@ -8,24 +13,21 @@
 
 
     /*ヘッダー-------------------------------------------------*/
-    .header-left p {
-        margin: 10px 10px 10px 10px;
-        font-size: 17px;
-    }
-
+    
     .header-left img {
-        width: 45px;
-        height: 45px
+        width: 200px;
+        height: 43px;
+        margin-left: 4%;
     }
 
     /*タイトル---------------------------------------------------*/
     .title {
-        margin-top: 30px;
+        margin-top: 1px;
     }
 
     .title h1 {
-        padding-left:20px;
-        font-size:20px;
+        padding-left:10px;
+        font-size:17px;
         margin-bottom: 0;
     }
 
@@ -38,12 +40,12 @@
     }
 
     .nav a {
-        font-size: 17px;
+        font-size: 13px;
         margin-left: 10px;
     }
 
     .nav p {
-        font-size: 20px;
+        font-size: 15px;
         margin: 7px 0 0 0;
     }
 
